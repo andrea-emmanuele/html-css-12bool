@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
-.content {
+.content, .nested-content {
     height: 200px;
-    background: #FFC0CB;
     text-align: center;
     line-height: 200px;
+}
+
+.content {
+    background: #FFC0CB;
+    border: 1px solid #000;
+}
+
+.nested-content {
+    background: #F07F80;
 }

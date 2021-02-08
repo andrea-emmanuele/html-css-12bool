@@ -5,16 +5,20 @@
 }
 
 .content, .nested-content {
-    height: 200px;
     text-align: center;
-    line-height: 200px;
 }
 
 .content {
+    height: 200px;
     background: #FFC0CB;
     border: 1px solid #000;
+    line-height: 200px;
+    padding: 5px;
 }
 
 .nested-content {
+    height: 190px;
     background: #F07F80;
+    border: 1px solid #fff;
+    line-height: 190px;
 }
